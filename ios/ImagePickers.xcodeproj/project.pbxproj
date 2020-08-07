@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B291777720B7B14C00CFBB9C /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B291777620B7B14C00CFBB9C /* FileManager.m */; };
 		B2AE275C207F411E00E95613 /* SFImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE26E5207F411E00E95613 /* SFImagePicker.m */; };
 		B2AE275D207F411E00E95613 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE26E7207F411E00E95613 /* HXCustomCameraViewController.m */; };
 		B2AE275E207F411E00E95613 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE26E8207F411E00E95613 /* UIViewController+HXExtension.m */; };
@@ -79,6 +80,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B291777520B7B14C00CFBB9C /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		B291777620B7B14C00CFBB9C /* FileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
 		B2AE26D8207F40F100E95613 /* libImagePickers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libImagePickers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AE26E4207F411E00E95613 /* SFImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImagePicker.h; sourceTree = "<group>"; };
 		B2AE26E5207F411E00E95613 /* SFImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImagePicker.m; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 				B2AE2734207F411E00E95613 /* SDWebImage */,
 				B2AE26E4207F411E00E95613 /* SFImagePicker.h */,
 				B2AE26E5207F411E00E95613 /* SFImagePicker.m */,
+				B291777520B7B14C00CFBB9C /* FileManager.h */,
+				B291777620B7B14C00CFBB9C /* FileManager.m */,
 			);
 			path = ImagePickers;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				B2AE26F8207F411E00E95613 /* UIFont+HXExtension.m */,
 				B2AE26F9207F411E00E95613 /* HXCircleProgressView.h */,
 				B2AE26FA207F411E00E95613 /* HXDatePhotoInteractiveTransition.m */,
+				B2AE272A207F411E00E95613 /* HXPhotoModel.h */,
 				B2AE26FB207F411E00E95613 /* HXPhotoModel.m */,
 				B2AE26FC207F411E00E95613 /* HXAlbumListViewController.m */,
 				B2AE26FD207F411E00E95613 /* UIButton+HXExtension.h */,
@@ -308,7 +314,6 @@
 				B2AE2727207F411E00E95613 /* HXAlbumListViewController.h */,
 				B2AE2728207F411E00E95613 /* HXCircleProgressView.m */,
 				B2AE2729207F411E00E95613 /* UIFont+HXExtension.h */,
-				B2AE272A207F411E00E95613 /* HXPhotoModel.h */,
 				B2AE272B207F411E00E95613 /* HXDatePhotoInteractiveTransition.h */,
 				B2AE272C207F411E00E95613 /* UIImageView+HXExtension.h */,
 				B2AE272D207F411E00E95613 /* HXDateVideoEditViewController.m */,
@@ -458,6 +463,7 @@
 				B2AE2780207F411E00E95613 /* HXDatePhotoToolManager.m in Sources */,
 				B2AE2765207F411E00E95613 /* UIImageView+HXExtension.m in Sources */,
 				B2AE276F207F411E00E95613 /* HXDatePhotoViewController.m in Sources */,
+				B291777720B7B14C00CFBB9C /* FileManager.m in Sources */,
 				B2AE277E207F411E00E95613 /* HXCircleProgressView.m in Sources */,
 				B2AE2761207F411E00E95613 /* HXPhoto3DTouchViewController.m in Sources */,
 				B2AE2782207F411E00E95613 /* UIImage+WebP.m in Sources */,

@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
-    <com.sf.sfphotopicker.multi_image_selector.view.MatrixImageView
+    android:background="#000000">
+    <com.sf.sfimagepicker.view.MatrixImageView
         android:id="@+id/imageview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

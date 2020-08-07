@@ -1,16 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sf.sfphotopicker" >
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    package="com.sf.sfimagepicker">
+
     <application>
         <activity
-            android:name="com.sf.sfphotopicker.multi_image_selector.SelectImageActivity"
-            android:screenOrientation="portrait" />
+            android:name=".SFPhotosActivity"
+            android:theme="@style/LightStyle"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.sf.sfphotopicker.multi_image_selector.MultiImageSelectorActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.sf.sfphotopicker.multi_image_selector.PhotoPreviewActivity"
-            android:screenOrientation="portrait" />
+            android:name=".SFPhotoPreviewActivity"
+            android:theme="@style/DarkStyle"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            ></activity>
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:screenOrientation="portrait"
