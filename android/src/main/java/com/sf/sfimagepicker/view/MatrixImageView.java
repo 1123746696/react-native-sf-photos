@@ -24,7 +24,7 @@ import android.widget.ImageView;
 import android.widget.OverScroller;
 import android.widget.Scroller;
 
-public class MatrixImageView extends android.support.v7.widget.AppCompatImageView {
+public class MatrixImageView extends androidx.appcompat.widget.AppCompatImageView {
     private static final String DEBUG = "DEBUG";
 
     //

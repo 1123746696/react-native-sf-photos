@@ -1,6 +1,6 @@
 package com.sf.sfimagepicker;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MotionEvent;
 
 import com.sf.sfimagepicker.utils.Util;
